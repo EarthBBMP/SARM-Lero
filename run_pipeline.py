@@ -1,19 +1,3 @@
-# run_pipeline.py
-# SARM Reward Model Pipeline
-# Author: Earth ADME #1
-#
-# Trains a reward model on cueng/so101_demo_bowl and outputs
-# sarm_progress.parquet to use as the reward signal in RLT training.
-#
-# Reference: https://huggingface.co/docs/lerobot/sarm
-# Paper: https://arxiv.org/abs/2509.25358
-#
-# Usage:
-#   python run_pipeline.py                  <- run everything
-#   python run_pipeline.py --step train
-#   python run_pipeline.py --step visualize
-#   python run_pipeline.py --step progress
-
 import argparse
 import os
 import shutil
