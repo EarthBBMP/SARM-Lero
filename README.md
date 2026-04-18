@@ -1,6 +1,4 @@
 # SARM Reward Model
-Author: Earth ADME #1
-
 Trains a SARM reward model on `cueng/so101_demo_bowl` and outputs
 `sarm_progress.parquet` to use as the reward signal in RLT training.
 
